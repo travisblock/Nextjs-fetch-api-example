@@ -18,7 +18,7 @@ export default function Character({ data }) {
   const { name, gender, location, image, species, status } = data;
 
   return (
-    <Layout title="Belajar Next JS">
+    <Layout title={`${name} - Belajar Next JS`}>
       <div className="container my-12 mx-auto px-4 md:px-12">
         <h1 className="text-blue-600 text-center font-bold text-4xl">{name}</h1>
         <div className="flex justify-center -mx-1 lg:-mx-4 mt-5">
