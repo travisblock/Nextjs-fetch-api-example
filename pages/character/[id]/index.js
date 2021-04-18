@@ -1,9 +1,5 @@
 import Layout from '../../../components/Layout'
-import { fas, faHeart } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
 import Link from 'next/link'
-library.add(fas, faHeart)
 
 const API1 = "https://rickandmortyapi.com/api/character";
 
